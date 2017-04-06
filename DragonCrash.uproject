@@ -3,6 +3,13 @@
 	"EngineAssociation": "4.14",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "DragonCrash",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "VictoryBPLibrary",
