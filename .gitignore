@@ -69,5 +69,9 @@ Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+# Remove plugin build files
+Plugins/**/Binaries/*
+Plugins/**/Intermediate/*
+
 # DragonCrash Exceptions
 !Plugins/GameLiftServerSDK/ThirdParty/GameLiftServerSDK/Win64/**
