@@ -7,11 +7,13 @@
 		{
 			"Name": "DragonCrash",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
-		
 		{
 			"Name": "GameLiftServerSDK",
 			"Enabled": true
