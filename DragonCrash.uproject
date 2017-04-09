@@ -18,5 +18,10 @@
 			"Name": "GameLiftServerSDK",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"LinuxNoEditor",
+		"MacNoEditor",
+		"WindowsNoEditor"
 	]
 }

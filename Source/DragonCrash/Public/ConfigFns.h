@@ -15,7 +15,7 @@ class DRAGONCRASH_API UConfigFns : public UBlueprintFunctionLibrary
 	
 public:
 	UFUNCTION(BlueprintCallable, Category = "Config")
-	static FString ReadCustomConfig(FString section, FString var);
+	static void ReadCustomConfig(const FString& section, const FString& var, FString& out_value, bool& out_valid);
 
 	UFUNCTION(BlueprintCallable, Category = "Config")
 	static void WriteCustomConfig(FString section, FString var, FString value);

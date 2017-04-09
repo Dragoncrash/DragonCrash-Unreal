@@ -4,15 +4,14 @@
 #include "ConfigFns.h"
 
 
-FString UConfigFns::ReadCustomConfig(FString section, FString var) {
+void UConfigFns::ReadCustomConfig(const FString& section, const FString& var, FString& out_value, bool& out_valid) {
 
 	//Config handler is GConfig I think...
-	if (!GConfig) return FString("NULL");
+	if (!GConfig) return;
 
-	FString value;
-	GConfig->GetString(*section, *var, value, GEngineIni);
-
-	return value;
+	out_valid = true;
+	GConfig->GetString(*section, *var, out_value, GEngineIni);
+	if (out_value.IsEmpty())out_valid = false;
 
 }
 
