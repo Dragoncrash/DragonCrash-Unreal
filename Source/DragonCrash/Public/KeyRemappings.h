@@ -13,8 +13,8 @@ class DRAGONCRASH_API UKeyRemappings : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 
-	UFUNCTION(BlueprintPure, meta = (DisplayName = "Hello World", CompactNodeTitle = "WORLDHELLO", Keywords = "String Hello World"), Category = Game)
-		static FText HelloWorld();
+//	UFUNCTION(BlueprintPure, meta = (DisplayName = "Hello World", CompactNodeTitle = "WORLDHELLO", Keywords = "String Hello World"), Category = Game)
+//		static FText HelloWorld();
 	
 	
 	

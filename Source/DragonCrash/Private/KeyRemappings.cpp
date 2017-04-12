@@ -3,7 +3,7 @@
 #include "DragonCrash.h"
 #include "KeyRemappings.h"
 
-FText UCreateNewObject::HelloWorld()
-{
-	return FText::FromString("Hello World");
-}
+//FText UCreateNewObject::HelloWorld()
+//{
+//	return FText::FromString("Hello World");
+//}
